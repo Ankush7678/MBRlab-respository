@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.toolbar {
+    text-align: center;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
+    color: white;
+}
+.header {
+    text-align: center;
+    background-color: #80808012;
+}
+
+
+.heading {
+    padding: 0px 30px;
+    margin-bottom: 10px;
+}
+
+.logo-name {
+    font-size: 40px;
+    font-style: oblique;
+    color: #8080808c;
+
+
+}
+
+.heading h5 {
+    font-weight: 300;
+    font-size: 18px;
+    color: #808080;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+	padding: 5px;
+}
+
+
+.navigation {
+    border: 1px solid #8080808a;
+    background-color: white;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.navi {
+    padding: 15px;
+}
+
+nav.navigat {
+    font-size: 17px;
+    padding: 15px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    border-right: 1px solid #8080808a;
+}
+
+.overlay {
+	background: linear-gradient(rgba(0, 0, 0, 60%), rgba(0, 0, 0, 73%)),url('images/overlayimage.jpg');
+    background-size: cover;
+}
+
+.textcontent {
+    color: white;
+}
+
+
+.overlaytext {
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.textcontent {
+    color: white;
+}
+
+.textcontent h2 {
+    margin-bottom: 20px;
+    text-shadow: 2px 0px 3px white;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.list span {
+    font-size: 27px;
+    color: #e6e6e675;
+}
+
+
+.list li {
+    font-size: 20px;
+}
+
+.list hr {
+    width: 20%;
+    margin: 8px 0px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.subscribe button {
+    background-color: transparent;
+    margin-bottom: 40px;
+    padding: 5px 15px;
+    color: white;
+    border: 1px solid #74745d;
+    box-shadow: -3px 2px 8px white;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 900px){
+
+    .toolbar {
+        font-size: 12px;
+ }
+ 
+   .navi {
+        padding: 0px;
+ }
+
+    .overlaytext{
+        padding: 20px;
+        flex-direction: column;
+    
+    }
+    
+    .textcontent h2 {
+        margin-bottom: 10px;
+    }
+    
+    .list hr {
+        width: 40%;
+    }	
+    
+    
+    nav.navigat {
+        display: grid;
+        font-size: 14px;
+        grid-template-columns: auto auto auto auto;
+        padding: 0px;
+    }
+    
+    .list ul {
+        margin-bottom: 15px !important;
+    }
+    
+    .subscribe {
+        margin-top: 30px;
+        padding: 0px 70px;
+
+    }
+    .navigation {
+        flex-direction: column;
+    }
+    .heading {
+        margin-bottom: 0px;
+    }
+    
+    .heading h5 {
+        display: none;
+    }
+    
+    nav a {
+    padding: 8px;
+    margin-bottom: 8px;
+    }
+    
+
+}
